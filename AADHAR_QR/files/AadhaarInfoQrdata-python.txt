@@ -1,0 +1,28 @@
+from pyaadhaar.decode import AadhaarSecureQr
+from pyaadhaar.decode import AadhaarOfflineXML
+
+obj  = AadhaarSecureQr("QR data")
+print('data :',obj.data)
+print()
+print('decodeddata :',obj.decodeddata())
+print()
+print('image :',obj.image())
+print()
+print('details :',obj.details)
+print()
+print('isEmailRegistered :',obj.isEmailRegistered())
+print()
+print('isMobileNoRegistered :',obj.isMobileNoRegistered())
+print()
+#print('signedData :',obj.signedData())
+print('delimeter :',obj.delimeter)
+print()
+print('decompressed_array :',obj.decompressed_array)
+print('signature :',obj.signature())
+print()
+#print('saveimage :',obj.saveimage("Image-1.jpg"))
+print('sha256hashOfEMail',obj.sha256hashOfEMail())
+print()
+print('sha256hashOfMobileNumber',obj.sha256hashOfMobileNumber())
+print()
+

@@ -1,0 +1,37 @@
+{
+	"code": "0000",
+	"msgdata":
+		{
+			"userdata": {
+				"email_mobile_status": "",
+				"referenceid": "",
+				"name": "",
+				"dob": "",
+				"gender": "",
+				"careof": "",
+				"district": "",
+				"landmark": "",
+				"house": "",
+				"location": "",
+				"pincode": "",
+				"postoffice": "",
+				"state": "",
+				"street": "",
+				"subdistrict": "",
+				"vtc": "",
+				"adhaar_last_4_digit": "",
+				"adhaar_last_digit": "",
+				"email": "",
+				"mobile": ""
+			},
+			"image": "",
+			"availabledetails": [],
+			"signature": "",
+			"hashofemail": "",
+			"hashofmobile": "",
+			"isemailreg": "",
+			"ismobilereg": ""
+		},
+	"message": "Aadhaar data from QR code",
+	"status": "SUCCESS"
+}
